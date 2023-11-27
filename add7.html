@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+    
+    <script>
+        function add7(number) {
+            return number + 7;
+        }
+
+        let number = prompt("Enter a number to add 7");
+        let result = add7(Number(number));
+        
+        document.getElementById("result").innerText = "Result: " + result;
+    </script>
+</body>
+</html>

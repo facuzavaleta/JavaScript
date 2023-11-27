@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+
+    <script>
+        function capitalize(string){
+            return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
+        }
+
+        let string = prompt("Enter a string to capitalize")
+        let result = capitalize(string)
+
+        document.getElementById("result").innerText = "Result: " + result
+    </script>
+</body>
+</html>
